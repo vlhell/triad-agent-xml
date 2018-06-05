@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agent_status>
+    <goal_graph xmlns="https://en.wikipedia.org/wiki/Goal_setting">
+        <goals_list>
+            <goal>
+                <id>101</id>
+                <number>1</number>
+                <!-- below: initial/common/final -->
+                <type>initial</type>
+                <!-- below: true/false -->
+                <achieved>true</achieved>
+            </goal>
+        </goals_list>
+        <transitions_list>
+            <transition>
+                <parents>
+                    <parent>
+                        <!-- below: w/o info, obviously -->
+                        <id />
+                        <!-- below: true/false -->
+                        <locked>true</locked>
+                    </parent>
+                </parents>
+                <children>
+                    <child />
+                </children>
+                <!-- below: relationship type: conjunctive/alternative -->
+                <relat_type>conj</relat_type>
+            </transition>
+        </transitions_list>
+        <contradictions_list>
+            <contradiction>
+                <contr_goals_list>
+                    <contr_goal />
+                </contr_goals_list>
+            </contradiction>
+        </contradictions_list>
+    </goal_graph>
+    <action_graph xmlns="https://en.wikipedia.org/wiki/Action_(philosophy)">
+        <actions_list>
+            <action>
+                <performing>true</performing>
+            </action>
+        </actions_list>
+        <transitions_list>
+            <transition>
+                <!-- conditions? -->
+                <!-- below: external condition -->
+                <condition />
+                <!-- below: activation time -->
+                <activ_time>1</activ_time>
+            </transition>
+        </transitions_list>
+    </action_graph>
+    <parameter_graph xmlns="https://en.wikipedia.org/wiki/Parameter">
+        <parameters_list>
+            <parameter>
+                <score>50</score>
+            </parameter>
+        </parameters_list>
+        <transitions_list>
+            <transition>
+                <parent />
+                <children />
+            </transition>
+        </transitions_list>
+    </parameter_graph>
+    <connections xmlns="https://en.wiktionary.org/wiki/connection">
+        <!-- below: buffer positions list -->
+        <buf_positions_list>
+            <buf_position>
+                <!-- below: source vertex -->
+                <source_vert />
+                <!-- below: sink vertex -->
+                <sink_vert />
+            </buf_position>
+        </buf_positions_list>
+    </connections>
+</agent_status>
